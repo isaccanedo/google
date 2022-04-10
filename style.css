@@ -1,0 +1,135 @@
+body,
+html {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(117, 116, 116);
+}
+
+a {
+  color: rgb(48, 48, 48);
+  text-decoration: none;
+  font-size: 13px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 25px;
+}
+
+#nav a {
+  margin-right: 20px;
+}
+
+#nav a.topimage {
+  height: 2em;
+  width: 2em;
+  background: green;
+  border-radius: 50%;
+}
+
+#middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding-bottom: 200px;
+}
+
+#logo {
+  margin-top: 40px;
+}
+
+#searchbarcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0px;
+  position: relative;
+}
+
+input:focus {
+  outline: none;
+}
+
+#search {
+  position: absolute;
+  left: 10px;
+}
+
+#voice {
+  position: absolute;
+  right: 10px;
+}
+
+#searchbar {
+  padding: 15px 32px;
+  width: 500px;
+  border-radius: 30px;
+  border: 1px solid #eee;
+}
+
+#searchbar:hover {
+  box-shadow: 0 2px 7px rgb(230, 224, 224);
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  margin: 0px 10px;
+  padding: 10px 15px;
+  background: #eee;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: 0 0 2px 0 black;
+}
+
+#links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+#links a {
+  padding: 0px 20px;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background: #eee;
+}
+
+#footer a {
+  padding: 0px 20px;
+}
+
+#left-content {
+  position: absolute;
+  left: 10px;
+}
+
+#right-content {
+  position: absolute;
+  right: 10px;
+}
